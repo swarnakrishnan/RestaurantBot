@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions" xmlns:its="http://www.w3.org/2005/11/its" xmlns:itsxlf="http://www.w3.org/ns/its-xliff/" its:version="2.0">
+<file original="agent.proto" source-language="en" target-language="en-IN" datatype="x-undefined">
+<body>
+<trans-unit id="tu1" resname="assistantAppName">
+<source xml:lang="en">Hello RestaurantBot</source>
+<target xml:lang="en-IN">Hello RestaurantBot</target>
+<note>The default display name for this app (if there is not a translation available).</note>
+</trans-unit>
+<trans-unit id="tu2" resname="pronunciation">
+<source xml:lang="en">Hello RestaurantBot</source>
+<target xml:lang="en-IN">Hello RestaurantBot</target>
+<note>For triggering. This is the unique name for this app to directly invoke it within a voice (spoken) context.</note>
+</trans-unit>
+<trans-unit id="tu3" resname="shortDescription">
+<source xml:lang="en">This bot is used to to book a table in a restaurant.</source>
+<target xml:lang="en-IN">This bot is used to to book a table in a restaurant.</target>
+<note>The default short description for the app (if there is not a translation available). This is limited to 80 characters.</note>
+</trans-unit>
+<trans-unit id="tu4" resname="fullDescription">
+<source xml:lang="en">This Bot enables a person to book a table in a restaurant based on the user's wish.</source>
+<target xml:lang="en-IN">This Bot enables a person to book a table in a restaurant based on the user's wish.</target>
+<note>The default long description for the app (if there is not a translation available). This is limited to 4000 characters.</note>
+</trans-unit>
+<trans-unit id="tu5" resname="developerName">
+<source xml:lang="en">Swarna Krishnan Kuchibhotla</source>
+<target xml:lang="en-IN">Swarna Krishnan Kuchibhotla</target>
+<note>The name of the publisher to be displayed to users.</note>
+</trans-unit>
+<trans-unit id="tu6" resname="email">
+<source xml:lang="en">swarnakrishnan410@gmail.com</source>
+<target xml:lang="en-IN">swarnakrishnan410@gmail.com</target>
+<note>The contact email address for the publisher.</note>
+</trans-unit>
+<trans-unit id="tu7" resname="assistantAppVoice">
+<source xml:lang="en">male_2</source>
+<target xml:lang="en-IN">male_2</target>
+<note>The voice name for this app in the VUI (voice user interface) context. Example values supported: male_1, male_2, female_1, female_2</note>
+</trans-unit>
+<trans-unit id="tu8" resname="assistantAppExternalVoiceName">
+<source xml:lang="en">male_2</source>
+<target xml:lang="en-IN">male_2</target>
+<note>The external voice name for this app in the VUI (voice user interface) context. Does not contain locale information.</note>
+</trans-unit>
+<trans-unit id="tu9" resname="linkToPrivacyPolicy">
+<source xml:lang="en">https://docs.google.com/document/d/10OHReEch6eBTpsA9UZkeLSs2HJoo2Bp3aIn2l72p31U/edit?usp=sharing</source>
+<target xml:lang="en-IN">https://docs.google.com/document/d/10OHReEch6eBTpsA9UZkeLSs2HJoo2Bp3aIn2l72p31U/edit?usp=sharing</target>
+<note>The URL for the app's privacy policy.</note>
+</trans-unit>
+<group id="grpId1" resname="sampleInvocations">
+<trans-unit id="tu10" resname="sampleInvocations.1">
+<source xml:lang="en">Talk to Hello RestaurantBot</source>
+<target xml:lang="en-IN">Talk to Hello RestaurantBot</target>
+<note>Sample invocation phrase displayed as part of app description in the directory of all agents.</note>
+</trans-unit>
+</group>
+</body>
+</file>
+</xliff>
