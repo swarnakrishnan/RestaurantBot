@@ -1,0 +1,120 @@
+{
+  "id": "758af8e4-10bd-4bcc-9b48-98b7c16b1f93",
+  "name": "Restaurant.Booking.create",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "5a1292e7-a2bb-45ff-acd3-13b03cf08237",
+          "name": "guests",
+          "required": true,
+          "dataType": "@sys.number",
+          "value": "$guests",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "For how many guests?"
+            },
+            {
+              "lang": "en",
+              "value": "How many people are coming?"
+            },
+            {
+              "lang": "en",
+              "value": "Can you specify the number of guests please?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "ff18e48f-8c97-484f-8d4a-50166414b766",
+          "name": "time",
+          "required": true,
+          "dataType": "@time",
+          "value": "$time",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "At what time do you want us to book the table?"
+            },
+            {
+              "lang": "en",
+              "value": "Can you specify the time please?"
+            },
+            {
+              "lang": "en",
+              "value": "May I know the time of booking?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "cc8271bb-d7f8-4694-8f5f-fa56b7e2687e",
+          "name": "date",
+          "required": true,
+          "dataType": "@sys.date",
+          "value": "$date",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What day do you want to book this table?"
+            },
+            {
+              "lang": "en",
+              "value": "can you specify the date of booking please?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Your booking is successful for $guests guests at $time $date. We can\u0027t wait to serve you.",
+            "Your table is reserved for $guests guests at $time $date. We are glad that you chose us.",
+            "Your booking was successful and thank you for choosing us. We have booked table for $guests at $time $date",
+            "Your table is booked for $guests guests at $time $date. See you at the restaurant! Thank You!"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

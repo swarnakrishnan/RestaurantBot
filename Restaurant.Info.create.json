@@ -1,0 +1,39 @@
+{
+  "id": "44b0dcf7-8064-4325-9fe1-b500e4887af0",
+  "name": "Restaurant.Info.create",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Our restaurant is the top class restaurant with a 5 star rating. Our restaurant is famous for the international cuisines and other national specials. We serve Indian, chinese, thai, Italian, french and other cuisines. We often receive and serve international guests and tourists. Our Hotel has a very high reputation."
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

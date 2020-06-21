@@ -1,0 +1,37 @@
+{
+  "id": "fe9f0771-bcc7-449e-9d1b-324ff86f9fd1",
+  "name": "smalltalk.agent.fired",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smalltalk.agent.fired",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Oh, don\u0027t give up on me just yet. I\u0027ve still got a lot to learn.",
+            "Give me a chance. I\u0027m learning new things all the time.",
+            "Please don\u0027t give up on me. My performance will continue to improve."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
