@@ -1,0 +1,22 @@
+[
+  {
+    "value": "sunday",
+    "synonyms": [
+      "sunday",
+      "monday",
+      "tuesday",
+      "wednesday",
+      "thursday",
+      "friday",
+      "saturday"
+    ]
+  },
+  {
+    "value": "today",
+    "synonyms": [
+      "today",
+      "tomorrow",
+      "day after tomorrow"
+    ]
+  }
+]
